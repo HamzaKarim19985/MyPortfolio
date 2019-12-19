@@ -1,0 +1,57 @@
+import React, { Component } from "react";
+
+export default class landingpage extends Component {
+  render() {
+    return (
+      <div class="container">
+        <div className=" landing-grid">
+          <img
+            className="avatar-img"
+            src="https://instagram.fyto1-2.fna.fbcdn.net/v/t51.2885-19/s150x150/50572337_759507457832972_4214815204732567552_n.jpg?_nc_ht=instagram.fyto1-2.fna.fbcdn.net&oh=d38ccd3f703e03ad4a8cd77aaa9bedae&oe=5E8F750B"
+            alt="Avatar"
+          />
+          <div className="landing-text">
+            <h1>Computer Engineering Student | Front End Web Developer</h1>
+            <hr />
+
+            <p>Javascript | Java | HTML | CSS | React | Bootstrap | JavaFXML</p>
+
+            <div className="contact-links">
+              <a
+                href="https://www.linkedin.com/in/hamza-karim-4a3186133/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-linkedin hvr-grow"></i>
+              </a>
+
+              <a
+                href="https://github.com/HamzaKarim19985"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-github-square hvr-grow"></i>
+              </a>
+
+              <a
+                href="hamzakarim1998@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-envelope-square hvr-grow"></i>
+              </a>
+
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-facebook hvr-grow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
