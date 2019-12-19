@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import Particles from "react-particles-js";
+import ReactParticles from "react-particles-js";
+import particlesConfig from "./particles-config.js";
 
 export default class landingpage extends Component {
   render() {
@@ -49,6 +52,23 @@ export default class landingpage extends Component {
                 <i class="fa fa-facebook hvr-grow"></i>
               </a>
             </div>
+
+            <Particles
+              params={{
+                particles: {
+                  line_linked: {
+                    shadow: {
+                      enable: true,
+                      color: "#3CA9D1",
+                      blur: 5
+                    }
+                  }
+                }
+              }}
+              style={{
+                width: "100%"
+              }}
+            />
           </div>
         </div>
       </div>

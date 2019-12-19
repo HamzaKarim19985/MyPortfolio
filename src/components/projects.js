@@ -3,8 +3,8 @@ import React, { Component } from "react";
 export default class project extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
   }
+
   render() {
     return (
       <div class="Container">

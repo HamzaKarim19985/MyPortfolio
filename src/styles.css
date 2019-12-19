@@ -1,0 +1,219 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "avenir next", avenir, -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+  color: #374047;
+}
+
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  width: 100%;
+  background-color: #1e282f;
+}
+
+.info {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 14px;
+}
+
+.info a {
+  color: inherit;
+}
+
+.info .notice {
+  margin-top: 1rem;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 980px) {
+  .info {
+    font-size: 18px;
+  }
+  .info .notice {
+    display: none;
+  }
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2a3267), to(#1e282f));
+  background: linear-gradient(180deg, #2a3267, #1e282f 100%);
+}
+
+.hero-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 3rem 1.5rem;
+}
+
+@media screen and (min-width: 980px) {
+  .hero-body {
+    padding: 8rem 1.5rem;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 980px) {
+  .column {
+    width: 33.33333333333333%;
+  }
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+  will-change: transform;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card-body {
+  margin-top: 27px;
+  margin-bottom: 27px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 576px) {
+  .card-body {
+    font-size: 18px;
+  }
+}
+
+.image-container {
+  margin-top: auto;
+  padding-top: 27px;
+  padding-bottom: 18px;
+}
+
+@media screen and (min-width: 576px) {
+  .image-container {
+    padding-bottom: 30px;
+  }
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.image-inner-container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.ratio-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/*# sourceMappingURL=styles.css.map */

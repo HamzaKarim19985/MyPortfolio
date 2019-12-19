@@ -1,10 +1,26 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import Particles from "react-particles-js";
+import ReactParticles from "react-particles-js";
+import particlesConfig from "./particles-config.js";
 
 export default class resume extends Component {
   render() {
     return (
       <Grid>
+        <div style={({ position: "relative" }, { background: "black" })}>
+          <ReactParticles
+            params={particlesConfig}
+            style={{
+              position: "absolute",
+              zIndex: 1,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              top: 0
+            }}
+          />
+        </div>
         <Cell className="resume-left-side" col={4}>
           <div style={{ textAlign: "center" }}>
             <img
@@ -35,7 +51,7 @@ export default class resume extends Component {
           <p>hamzakarim1998@gmail.com</p>
 
           <h5>Web</h5>
-          <p>mywebsite.com</p>
+          <p>https://my-portfolio-hamza-karim.netlify.com/</p>
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
         </Cell>
 
