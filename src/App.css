@@ -138,21 +138,12 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(
-    to right,
-    #f11712,
-    #0099f7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f11712,
-    #0099f7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(240, 199, 229);
 }
 
 .landing-text {
   background: black;
-  opacity: 70%;
+  opacity: 0.8;
   width: 80%;
   text-align: center;
   margin: auto;
