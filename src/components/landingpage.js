@@ -14,7 +14,7 @@ export default class landingpage extends Component {
             alt="Avatar"
           />
           <div className="landing-text">
-            <h1>Computer Engineering Student | Front End Web Developer</h1>
+            <h1>Computer Engineering Student | Web Developer</h1>
             <hr />
 
             <p>Javascript | Java | HTML | CSS | React | Bootstrap | JavaFXML</p>
@@ -25,7 +25,7 @@ export default class landingpage extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa fa-linkedin hvr-grow"></i>
+                <i class="fa fa-linkedin hvr-float"></i>
               </a>
 
               <a
@@ -33,7 +33,7 @@ export default class landingpage extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa fa-github-square hvr-grow"></i>
+                <i class="fa fa-github-square hvr-float"></i>
               </a>
 
               <a
@@ -41,7 +41,7 @@ export default class landingpage extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa fa-envelope-square hvr-grow"></i>
+                <i class="fa fa-envelope-square hvr-float"></i>
               </a>
 
               <a
@@ -49,7 +49,7 @@ export default class landingpage extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa fa-facebook hvr-grow"></i>
+                <i class="fa fa-facebook hvr-float"></i>
               </a>
             </div>
 

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
 
-export default class about extends Component {
+export default class About extends Component {
   render() {
-    return <h1>About</h1>;
+    return <div>Contacts</div>;
   }
 }
