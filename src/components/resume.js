@@ -30,21 +30,31 @@ export default class resume extends Component {
             />
           </div>
           <h2 style={{ paddingTop: "2rem" }}>Hamza Karim</h2>
-          <h4 style={{ color: "grey" }}>Programmer</h4>
+          <h4 style={{ color: "grey" }}>Software Developer</h4>
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           <p>
-            I initially did not expect to become a programmer, as I took no
-            interest in coding.Everytime I would try my luck at it, it would
-            follow in frustration and headaches.I was befuddled by the blocks of
-            code that may as well have been hieroglyphics to me. Finally I took
-            things slowly and started with a small project, a quote
-            machine.After countless hours I finally got it to work and the joy I
-            got from completing it helped me understand programming.Since then I
-            have been attending the Ryerson University Computer Engineering
-            program for three years, and in my 3 years here I have learned many
-            skills and applied myself to work vigorously in pursuit of becoming
-            a better programmer.I have also been learning and practicing during
-            my free time about topics not covered in school.
+            {" "}
+            Ever since I took my first computer science class in high school, I
+            have been obsessed with software development. I could not believe
+            that there was this technology that could let you solve so many
+            practical problems. I also loved being able to see the desired
+            output as my reward after hours of work. To me, software development
+            is a never ending puzzle that needs to be solved, and I will happily
+            attempt to solve it.{" "}
+          </p>
+          <p>
+            {" "}
+            My computer science teacher instilled me with a passion and
+            understanding for problem-solving. This passion has carried me
+            through my education at Ryerson University. I have been attending
+            the Ryerson University Computer Engineering program for three years,
+            and in my 3 years here I have learned new languages, data
+            structures, algorithms, compilers, higher level mathematics, and
+            software engineering practices. I have also applied myself to work
+            vigorously in pursuit of becoming a better software engineer by
+            working on many projects ranging from a C.R.U.D app to an E-commerce
+            website. But the most important thing I learned was that there was
+            so much out there I have yet to learn.
           </p>
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           <h5>Email</h5>

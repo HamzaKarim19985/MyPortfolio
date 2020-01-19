@@ -12,12 +12,13 @@ export default class project extends Component {
         <div class="grid-container">
           {/*E-commerce website */}
           <div class="card">
-            <img
-              class="card-img-top"
-              src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-              alt="React Project"
-            />
-
+            <div class="img-container">
+              <img
+                class="card-img-top"
+                src="https://i.pinimg.com/236x/ab/ca/4c/abca4c51c7e166b2980105b5e98b7ac2.jpg"
+                alt="React Project"
+              />
+            </div>
             <div class="card-body">
               <p class="card-text">
                 <span class="text-title"> E-commerce Website |</span> React
@@ -28,13 +29,15 @@ export default class project extends Component {
             <div class="btn-group" role="group">
               <a
                 href="https://github.com/HamzaKarim19985/react-phone-store-recording"
-                class="btn btn-outline-secondary"
+                class="btn btn-outline-secondary "
+                target="_blank"
               >
                 Github
               </a>
               <a
-                href="https://react-e-commerce-store-hamzakarim.netlify.com/"
+                href="https://e-commerce-store-hk.netlify.com/"
                 class="btn btn-outline-secondary"
+                target="_blank"
               >
                 Live Demo
               </a>
@@ -43,11 +46,13 @@ export default class project extends Component {
 
           {/*Portfolio Website */}
           <div class="card">
-            <img
-              class="card-img-top"
-              src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-              alt="React Project"
-            />
+            <div class="img-container">
+              <img
+                class="card-img-top"
+                src="https://i.pinimg.com/236x/ca/c3/c4/cac3c4364873fb6aea350735a1919cb4--user-profile-pictogram.jpg"
+                alt="React Project"
+              />
+            </div>
             <div class="card-body">
               <p class="card-text">
                 <span class="text-title">Professional Portfolio Website |</span>{" "}
@@ -57,10 +62,54 @@ export default class project extends Component {
             </div>
 
             <div class="btn-group" role="group">
-              <a href="http://google.com" class="btn btn-outline-secondary">
+              <a
+                href="https://github.com/HamzaKarim19985/MyPortfolio"
+                class="btn btn-outline-secondary"
+                target="_blank"
+              >
                 Github
               </a>
-              <a href="http://google.com" class="btn btn-outline-secondary">
+              <a
+                href="https://my-portfolio-hkarim.netlify.com/"
+                class="btn btn-outline-secondary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+
+          {/*CRUD APP */}
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="card-img-top"
+                src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
+                alt="React Project"
+                target="_blank"
+              />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                <span class="text-title">USER DATABASE (CRUD APP) |</span> ●
+                React based website that can create, read, update, edit, search
+                and delete user data that is retrieved from a custom JSON API
+                server using HTTP methods
+              </p>
+            </div>
+            <div class="btn-group" role="group">
+              <a
+                href="https://github.com/HamzaKarim19985/DatabaseCRUDapp"
+                class="btn btn-outline-secondary"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://crud-userdata.netlify.com/"
+                class="btn btn-outline-secondary"
+                target="_blank"
+              >
                 Live Demo
               </a>
             </div>
@@ -68,12 +117,13 @@ export default class project extends Component {
 
           {/*Recipe Search Website */}
           <div class="card">
-            <img
-              class="card-img-top"
-              src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-              alt="React Project"
-            />
-
+            <div class="img-container">
+              <img
+                class="card-img-top"
+                src="https://www.creativefabrica.com/wp-content/uploads/2018/10/Pan-cooking-logo-by-yahyaanasatokillah-580x387.jpg"
+                alt="React Project"
+              />
+            </div>
             <div class="card-body">
               <p class="card-text">
                 <span class="text-title"> Recipe Search Website |</span> React
@@ -85,12 +135,14 @@ export default class project extends Component {
               <a
                 href="https://github.com/HamzaKarim19985/search-for-recipes-api"
                 class="btn btn-outline-secondary"
+                target="_blank"
               >
                 Github
               </a>
               <a
-                href="https://sleepy-varahamihira-7f8bde.netlify.com/"
+                href="https://search-recipes-hk.netlify.com/"
                 class="btn btn-outline-secondary"
+                target="_blank"
               >
                 Live Demo
               </a>
@@ -99,29 +151,33 @@ export default class project extends Component {
 
           {/*City Tours Website */}
           <div class="card">
-            <img
-              class="card-img-top"
-              src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-              alt="React Project"
-            />
-
+            <div class="img-container">
+              <img
+                class="card-img-top"
+                src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
+                alt="React Project"
+                target="_blank"
+              />
+            </div>
             <div class="card-body">
               <p class="card-text">
-                <span class="text-title">City Tours Website |</span>Simple React
-                based website that showcases information about worldwide city
-                tours.
+                <span class="text-title">City Tours Website | </span> Simple
+                React based website that showcases information about worldwide
+                city tours.
               </p>
             </div>
             <div class="btn-group" role="group">
               <a
                 href="https://github.com/HamzaKarim19985/react-city-tours"
                 class="btn btn-outline-secondary"
+                target="_blank"
               >
                 Github
               </a>
               <a
                 href="https://react-city-tour-guide.netlify.com/"
                 class="btn btn-outline-secondary"
+                target="_blank"
               >
                 Live Demo
               </a>
@@ -130,15 +186,17 @@ export default class project extends Component {
 
           {/*Quote Machine Website */}
           <div class="card">
-            <img
-              class="card-img-top"
-              src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-              alt="React Project"
-            />
-
+            <div class="img-container">
+              <img
+                class="card-img-top"
+                src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
+                alt="React Project"
+                target="_blank"
+              />
+            </div>
             <div class="card-body">
               <p class="card-text">
-                <span class="text-title">Quote Machine Website |</span>Simple
+                <span class="text-title">Quote Machine Website | </span> Simple
                 React based website that shows random quotes.
               </p>
             </div>
@@ -146,12 +204,14 @@ export default class project extends Component {
               <a
                 href="https://github.com/HamzaKarim19985/Quote-Machine"
                 class="btn btn-outline-secondary"
+                target="_blank"
               >
                 Github
               </a>
               <a
                 href="https://boring-mahavira-fc6c0e.netlify.com/"
                 class="btn btn-outline-secondary"
+                target="_blank"
               >
                 Live Demo
               </a>
