@@ -10,6 +10,40 @@ export default class project extends Component {
       <div class="Container">
         <h1>Projects</h1>
         <div class="grid-container">
+          {/* Cafeteria System */}
+          <div class="card">
+            <div class="img-container">
+              <img
+                class="card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOaY7djEZQyTk_MJWmIM01c_x0ieCtv7CRBVeWMTFmefWaSa7g&usqp=CAU"
+                alt="React Project"
+              />
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                <span class="text-title"> Cafeteria System |</span> Made using
+                React. Has registration/login modules, product list,menu,cart
+                and Paypal.Firebase and Firestore used for back end.
+              </p>
+            </div>
+            <div class="btn-group" role="group">
+              <a
+                href="https://github.com/HamzaKarim19985/CafeteriaSystem"
+                class="btn btn-outline-secondary "
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://login-3f01e.firebaseapp.com"
+                class="btn btn-outline-secondary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+
           {/*E-commerce website */}
           <div class="card">
             <div class="img-container">
@@ -107,40 +141,6 @@ export default class project extends Component {
               </a>
               <a
                 href="https://crud-userdata.netlify.com/"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-
-          {/*Recipe Search Website */}
-          <div class="card">
-            <div class="img-container">
-              <img
-                class="card-img-top"
-                src="https://www.creativefabrica.com/wp-content/uploads/2018/10/Pan-cooking-logo-by-yahyaanasatokillah-580x387.jpg"
-                alt="React Project"
-              />
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <span class="text-title"> Recipe Search Website |</span> React
-                based website utilizing recipe database api utilizing react
-                hooks.{" "}
-              </p>
-            </div>
-            <div class="btn-group" role="group">
-              <a
-                href="https://github.com/HamzaKarim19985/search-for-recipes-api"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Github
-              </a>
-              <a
-                href="https://search-recipes-hk.netlify.com/"
                 class="btn btn-outline-secondary"
                 target="_blank"
               >

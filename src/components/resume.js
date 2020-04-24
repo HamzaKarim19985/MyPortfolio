@@ -17,7 +17,7 @@ export default class resume extends Component {
               left: 0,
               right: 0,
               bottom: 0,
-              top: 0
+              top: 0,
             }}
           />
         </div>
@@ -68,10 +68,10 @@ export default class resume extends Component {
         <Cell className="resume-right-side" col={8}>
           <h2>Education</h2>
           <Grid>
-            <Cell col={4}>
+            <Cell col={3}>
               <p>2016 - current</p>
             </Cell>
-            <Cell col={8}>
+            <Cell col={9}>
               <h4 style={{ marginTop: "0px" }}>Ryerson Univeristy</h4>
               <p>
                 Currently attending Ryerson University for Computer
@@ -86,16 +86,47 @@ export default class resume extends Component {
 
           <h2>Experience</h2>
           <Grid>
-            <Cell col={4}>
-              <p>2017-current</p>{" "}
+            <Cell col={3}>
+              <p>10/2019 - 03/2020</p>{" "}
             </Cell>
-            <Cell col={8}>
+            <Cell col={9}>
               <p style={{ marginTop: "0px" }}>
-                Experience with various javascript,react,html/css and java
-                projects.Projects in categories but not limited to:Portfolio
-                website,E-commerce website that sells phone products,Bank system
-                java/javaFXML app, Recipe search website, City Tours, Quote
-                machines, Surveys, Technical Documentation
+                <h6>
+                  Nov 2019 - Jan 2020 Freelance Web Developer | Mississauga,
+                  Ontario{" "}
+                </h6>
+                <ul>
+                  <li>
+                    Determined coding requirements for site creation, including
+                    e-commerce capability and specialized scripts
+                  </li>
+                  <li>
+                    {" "}
+                    Analyzed requirements and designed, developed and
+                    implemented software applications for multiple websites
+                  </li>
+
+                  <li>
+                    Tested websites and performed troubleshooting prior to
+                    deployment
+                  </li>
+                  <li>
+                    Designed, implemented and monitored web pages and sites for
+                    continuous improvement{" "}
+                  </li>
+                  <li>
+                    Established web hosting for site and uploaded site files to
+                    hosting account
+                  </li>
+                  <li>
+                    Link to demo model of website:
+                    https://login-3f01e.firebaseapp.com{" "}
+                  </li>
+                  <li>
+                    Link to GitHub Repo:
+                    https://github.com/HamzaKarim19985/CafeteriaSystem
+                  </li>
+                </ul>
               </p>
             </Cell>
           </Grid>

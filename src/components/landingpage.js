@@ -14,10 +14,10 @@ export default class landingpage extends Component {
             alt="Avatar"
           />
           <div className="landing-text">
-            <h1>Computer Engineering Student | Web Developer</h1>
+            <h1>Computer Engineering Student | Software Developer</h1>
             <hr />
 
-            <p>Javascript | Java | HTML | CSS | React | Bootstrap | JavaFXML</p>
+            <p>Javascript | Python | Java | HTML | CSS | React | Bootstrap</p>
 
             <div className="contact-links">
               <a
@@ -60,13 +60,13 @@ export default class landingpage extends Component {
                     shadow: {
                       enable: true,
                       color: "#3CA9D1",
-                      blur: 5
-                    }
-                  }
-                }
+                      blur: 5,
+                    },
+                  },
+                },
               }}
               style={{
-                width: "100%"
+                width: "100%",
               }}
             />
           </div>
