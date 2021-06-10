@@ -36,11 +36,11 @@ export default class resume extends Component {
             {" "}
             Ever since I took my first computer science class in high school, I
             have been obsessed with software development. I could not believe
-            that there was this technology that could let you solve so many
-            practical problems. I also loved being able to see the desired
-            output as my reward after hours of work. To me, software development
-            is a never ending puzzle that needs to be solved, and I will happily
-            attempt to solve it.{" "}
+            that there was this technology out there that could solve so many
+            problems in so many different ways. I also loved being able to see
+            the desired output as my reward after hours of work. To me, software
+            development is a never ending puzzle that needs to be solved, and I
+            will happily attempt to solve it.{" "}
           </p>
           <p>
             {" "}
