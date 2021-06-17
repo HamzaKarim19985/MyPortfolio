@@ -1,7 +1,8 @@
 .avatar-img {
-  height: 12rem;
-  border-radius: 5%;
-  margin-top: 6rem;
+  height: 10vw;
+  border-radius: 10%;
+  margin: 2vw 2vw;
+  margin-top: 7vw;
   text-align: center;
 }
 .btn-group {
@@ -122,7 +123,7 @@
   position: absolute;
   text-align: center;
   overflow: scroll;
-  background: #0099f7; /* fallback for old browsers */
+  background: #a1b1bb; /* fallback for old browsers */
 }
 .contact-links {
   display: flex;
@@ -139,12 +140,14 @@
   margin: auto;
 }
 .grid-container {
+  width: 100%;
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 4rem;
-  grid-row-gap: 10rem;
-  margin-top: 5rem;
+  grid-column-gap: 2vw;
+  grid-row-gap: 3vw;
+  margin-top: 5vw;
+ 
 }
 .gradient-color {
   background: #0099f7; /* fallback for old browsers */
@@ -245,25 +248,29 @@ h1 {
 
 .landing-text {
   background: black;
+  border-radius: 1%;
   opacity: 0.85;
-  width: 80%;
-  height: 25rem;
+  width: 85%;
+  height: 22rem;
   text-align: center;
   margin: auto;
   overflow: hidden;
 }
 .landing-text h1 {
-  font-size: 252%;
+  font-size: 3vw;
   font-weight: bold;
   color: white;
   text-align: center;
+  @media screen and (min-width: 980px) {
+    padding: 8rem 1.5rem;
+  }
 }
 .landing-text hr {
   border-top: 5px white dotted;
 }
 .landing-text p {
   color: white;
-  font-size: 20px;
+  font-size: 2vw;
   text-align: center;
   padding: 1em;
 }
@@ -279,3 +286,15 @@ h1 {
   font-weight: bold;
   font-variant-caps: titling-caps;
 }
+
+@media screen and (max-width: 740px) {
+  .grid-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+ }
+
+
+
