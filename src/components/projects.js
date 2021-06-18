@@ -1,224 +1,25 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
+import { dataArray } from "../assets/data";
+import { Project } from "./Project";
 
-export default class project extends Component {
-  constructor(props) {
-    super(props);
-  }
+export const Projects = () => {
 
-  render() {
+  const [projects, setProjects] = useState(dataArray);
+
     return (
       <div class="Container">
         <h1>Projects</h1>
         <div class="grid-container">
-          {/* Cafeteria System */}
-          <div class="card">
-            <div class="img-container">
-              <img
-                class="card-img-top"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOaY7djEZQyTk_MJWmIM01c_x0ieCtv7CRBVeWMTFmefWaSa7g&usqp=CAU"
-                alt="React Project"
-              />
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <span class="text-title"> Cafeteria System |</span> Made using
-                React. Has registration/login modules, product list,menu,cart
-                and Paypal.Firebase and Firestore used for back end.
-              </p>
-            </div>
-            <div class="btn-group" role="group">
-              <a
-                href="https://github.com/HamzaKarim19985/CafeteriaSystem"
-                class="btn btn-outline-secondary "
-                target="_blank"
-              >
-                Github
-              </a>
-              <a
-                href="https://login-3f01e.firebaseapp.com"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-
-          {/*E-commerce website */}
-          <div class="card">
-            <div class="img-container">
-              <img
-                class="card-img-top"
-                src="https://i.pinimg.com/236x/ab/ca/4c/abca4c51c7e166b2980105b5e98b7ac2.jpg"
-                alt="React Project"
-              />
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <span class="text-title"> E-commerce Website |</span> React
-                based with all website components; navigation,Router links,
-                modules, product list,menu,cart and Paypal.
-              </p>
-            </div>
-            <div class="btn-group" role="group">
-              <a
-                href="https://github.com/HamzaKarim19985/react-phone-store-recording"
-                class="btn btn-outline-secondary "
-                target="_blank"
-              >
-                Github
-              </a>
-              <a
-                href="https://e-commerce-store-hk.netlify.com/"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-
-          {/*Portfolio Website */}
-          <div class="card">
-            <div class="img-container">
-              <img
-                class="card-img-top"
-                src="https://i.pinimg.com/236x/ca/c3/c4/cac3c4364873fb6aea350735a1919cb4--user-profile-pictogram.jpg"
-                alt="React Project"
-              />
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <span class="text-title">Professional Portfolio Website |</span>{" "}
-                React based with Router links, bootstrap CSS, navigation bar,
-                and menu.
-              </p>
-            </div>
-
-            <div class="btn-group" role="group">
-              <a
-                href="https://github.com/HamzaKarim19985/MyPortfolio"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Github
-              </a>
-              <a
-                href="https://my-portfolio-hkarim.netlify.com/"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-
-          {/*CRUD APP */}
-          <div class="card">
-            <div class="img-container">
-              <img
-                class="card-img-top"
-                src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-                alt="React Project"
-                target="_blank"
-              />
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <span class="text-title">USER DATABASE (CRUD APP) |</span> ●
-                React based website that can create, read, update, edit, search
-                and delete user data that is retrieved from a custom JSON API
-                server using HTTP methods
-              </p>
-            </div>
-            <div class="btn-group" role="group">
-              <a
-                href="https://github.com/HamzaKarim19985/DatabaseCRUDapp"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Github
-              </a>
-              <a
-                href="https://crud-userdata.netlify.com/"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-
-          {/*City Tours Website */}
-          <div class="card">
-            <div class="img-container">
-              <img
-                class="card-img-top"
-                src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-                alt="React Project"
-                target="_blank"
-              />
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <span class="text-title">City Tours Website | </span> Simple
-                React based website that showcases information about worldwide
-                city tours.
-              </p>
-            </div>
-            <div class="btn-group" role="group">
-              <a
-                href="https://github.com/HamzaKarim19985/react-city-tours"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Github
-              </a>
-              <a
-                href="https://react-city-tour-guide.netlify.com/"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-
-          {/*Quote Machine Website */}
-          <div class="card">
-            <div class="img-container">
-              <img
-                class="card-img-top"
-                src="https://miro.medium.com/max/1320/1*y6C4nSvy2Woe0m7bWEn4BA.png"
-                alt="React Project"
-                target="_blank"
-              />
-            </div>
-            <div class="card-body">
-              <p class="card-text">
-                <span class="text-title">Quote Machine Website | </span> Simple
-                React based website that shows random quotes.
-              </p>
-            </div>
-            <div class="btn-group" role="group">
-              <a
-                href="https://github.com/HamzaKarim19985/Quote-Machine"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Github
-              </a>
-              <a
-                href="https://boring-mahavira-fc6c0e.netlify.com/"
-                class="btn btn-outline-secondary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
-            </div>
+          { projects.map( (project,index) => {
+                  return (
+                        <Project key = {project.id} {...project} ></Project>
+                  );
+          } ) }
+ 
+          
           </div>
         </div>
-      </div>
     );
-  }
-}
+  };
+
+export default Projects;
