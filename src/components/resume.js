@@ -33,7 +33,7 @@ export default class resume extends Component {
           <h4 style={{ color: "grey" }}>Software Developer</h4>
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           <p>
-            {" "}
+            {"  "}
             Ever since I took my first computer science class in high school, I
             have been obsessed with software development. I could not believe
             that there was this technology out there that could solve so many
@@ -43,7 +43,7 @@ export default class resume extends Component {
             will happily attempt to solve it.{" "}
           </p>
           <p>
-            {" "}
+            {"   "}
             My computer science teacher instilled me with a passion and
             understanding for problem-solving. This passion has carried me
             through my education at Ryerson University. I have been attending
@@ -74,9 +74,9 @@ export default class resume extends Component {
             <Cell col={10}>
               <h4 style={{ marginTop: "0px" }}>Ryerson Univeristy</h4>
               <p>
-                Currently attending Ryerson University for Computer
-                Engineering. I am a fourth year student that has completed many
-                important courses that cover the following topics: Object oriented
+                Currently attending Ryerson University for Computer Engineering.
+                I am a fourth year student that has completed many important
+                courses that cover the following topics: Object oriented
                 Analysis Design, Software Systems, Digital systems,
                 Microprocessor Systems,Algorithms and Data Structures
               </p>
@@ -90,44 +90,39 @@ export default class resume extends Component {
               <p>10/2019 - 03/2020</p>{" "}
             </Cell>
             <Cell col={10}>
-              <p style={{ marginTop: "0px" }}>
-                <h6>
-                  Nov 2019 - Jan 2020 Freelance Web Developer | Mississauga,
-                  Ontario{" "}
-                </h6>
-                <ul>
-                  <li>
-                    Determined coding requirements for site creation, including
-                    e-commerce capability and specialized scripts
-                  </li>
-                  <li>
-                    {" "}
-                    Analyzed requirements and designed, developed and
-                    implemented software applications for multiple websites
-                  </li>
+              <h4 style={{ marginTop: "0px" }}>Freelance Web Developer </h4>
+              <ul>
+                <li>
+                  Determined coding requirements for site creation, including
+                  e-commerce capability and specialized scripts
+                </li>
+                <li>
+                  {" "}
+                  Analyzed requirements and designed, developed and implemented
+                  software applications for multiple websites
+                </li>
 
-                  <li>
-                    Tested websites and performed troubleshooting prior to
-                    deployment
-                  </li>
-                  <li>
-                    Designed, implemented and monitored web pages and sites for
-                    continuous improvement{" "}
-                  </li>
-                  <li>
-                    Established web hosting for site and uploaded site files to
-                    hosting account
-                  </li>
-                  <li>
-                    Link to demo model of website:
-                    https://login-3f01e.firebaseapp.com{" "}
-                  </li>
-                  <li>
-                    Link to GitHub Repo:
-                    https://github.com/HamzaKarim19985/CafeteriaSystem
-                  </li>
-                </ul>
-              </p>
+                <li>
+                  Tested websites and performed troubleshooting prior to
+                  deployment
+                </li>
+                <li>
+                  Designed, implemented and monitored web pages and sites for
+                  continuous improvement{" "}
+                </li>
+                <li>
+                  Established web hosting for site and uploaded site files to
+                  hosting account
+                </li>
+                <li>
+                  Link to demo model of website:
+                  https://login-3f01e.firebaseapp.com{" "}
+                </li>
+                <li>
+                  Link to GitHub Repo:
+                  https://github.com/HamzaKarim19985/CafeteriaSystem
+                </li>
+              </ul>
             </Cell>
           </Grid>
 
