@@ -118,9 +118,7 @@ export const Landingpage = () => {
             </div>
             <a href="/projects">
               {" "}
-              <button type="button" class="menuBtnGold">
-                Portfolio
-              </button>
+              <button type="button">Portfolio</button>
             </a>
           </div>
         </div>
@@ -134,52 +132,55 @@ export const Landingpage = () => {
             <form class="form" onSubmit={handleSubmit}>
               <input type="text" placeholder="Email" />
               <textarea placeholder="Message"></textarea>
-              <button className="menuBtnGold" type="submit">
-                Send
-              </button>
+              <button type="submit">Send</button>
             </form>
           </div>
         </div>
 
         <div className="footer">
-          <div className="row">
-            <div className="column">
-              <p className="title">About Me</p>
-              <a href="/pdf" target="_blank">
-                <p className="footer-link ">Resume</p>
-              </a>
-              <a href="/resume" target="_blank">
-                <p className="footer-link ">Skills</p>
-              </a>
-              <a href="/resume" target="_blank">
-                <p className="footer-link ">Bio</p>
-              </a>
-            </div>
+          <div className="wrapper">
+            <div className="row">
+              <div className="column">
+                <p className="title">About Me</p>
+                <a href="/pdf" target="_blank">
+                  <p className="footer-link ">Resume</p>
+                </a>
+                <a href="/resume" target="_blank">
+                  <p className="footer-link ">Skills</p>
+                </a>
+                <a href="/resume" target="_blank">
+                  <p className="footer-link ">Bio</p>
+                </a>
+              </div>
 
-            <div className="column">
-              <p className="title">Contact</p>
-              <p className="footer-link ">Email | hamzakarim1998@gmail.com</p>
-              <p className="footer-link ">Phone Number | 416-996-2960</p>
-              <p className="footer-link ">Messenger | Hamza Karim</p>
-            </div>
+              <div className="column">
+                <p className="title">Contact</p>
+                <p className="footer-link ">Email | hamzakarim1998@gmail.com</p>
+                <p className="footer-link ">Phone Number | 416-996-2960</p>
+                <p className="footer-link ">Messenger | Hamza Karim</p>
+              </div>
 
-            <div className="column">
-              <p className="title">Socials</p>
-              <a
-                href="https://www.linkedin.com/in/hamza-karim-4a3186133/"
-                target="_blank"
-              >
-                <p className="footer-link ">LinkedIn</p>
-              </a>
-              <a
-                href="https://www.facebook.com/hamza.karim.982/"
-                target="_blank"
-              >
-                <p className="footer-link ">Facebook</p>
-              </a>
-              <a href="https://www.instagram.com/hamzakarimz/" target="_blank">
-                <p className="footer-link ">Instagram</p>
-              </a>
+              <div className="column">
+                <p className="title">Socials</p>
+                <a
+                  href="https://www.linkedin.com/in/hamza-karim-4a3186133/"
+                  target="_blank"
+                >
+                  <p className="footer-link ">LinkedIn</p>
+                </a>
+                <a
+                  href="https://www.facebook.com/hamza.karim.982/"
+                  target="_blank"
+                >
+                  <p className="footer-link ">Facebook</p>
+                </a>
+                <a
+                  href="https://www.instagram.com/hamzakarimz/"
+                  target="_blank"
+                >
+                  <p className="footer-link ">Instagram</p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
