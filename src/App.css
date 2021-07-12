@@ -356,13 +356,14 @@ input {
   text-decoration: none;
   background: black;
   color: white;
-
+  padding: 7px;
+  border-radius: 10%;
+  font-size: 16px;
   /*
-  padding: 0.8vw;
+  
   border-radius: 10%;
   font-size: 1.5vw;
-  opacity: 100%;
-  cursor: pointer;
+  
   color: white;
   background: linear-gradient(
       90deg,
