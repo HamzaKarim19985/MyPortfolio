@@ -116,6 +116,12 @@ export const Landingpage = () => {
                 alt="Downward Arrow"
               />
             </div>
+            <a href="/projects">
+              {" "}
+              <button className="menuBtn" type="button">
+                Portfolio
+              </button>
+            </a>
           </div>
         </div>
 

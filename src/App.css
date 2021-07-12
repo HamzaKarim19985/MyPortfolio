@@ -596,16 +596,15 @@ ul li.active {
   color: white;
 }
 .row {
-  display: grid;
-  /* flex-wrap: true;
+  display: flex;
+  flex-wrap: true;
   justify-content: space-between;
-  background: chartreuse;   */
-  justify-content: space-between;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+
+  /*grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 20px;
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
+  }   */
 }
 .footer-link {
   font-size: 15px;
