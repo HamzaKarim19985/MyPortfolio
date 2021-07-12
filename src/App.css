@@ -579,13 +579,14 @@ ul li.active {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  background: gold;
   /* background: red; */
 }
 .column {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 40px;
+  margin: 0px 100px;
   /* margin: 0 4.5vw; */
 }
 .title {
@@ -596,6 +597,10 @@ ul li.active {
 }
 .row {
   display: grid;
+  /* flex-wrap: true;
+  justify-content: space-between;
+  background: chartreuse;   */
+  justify-content: space-between;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 20px;
   @media (max-width: 1000px) {
@@ -636,3 +641,24 @@ ul li.active {
     padding: 0px;
   }
 }
+
+/*   
+
+  <div className="imgContainer">
+              <img
+                className="avatar-img"
+                style={{ height: "20vw", width: "20vw" }}
+                src="assets/images/Hamza.png"
+                alt="Avatar"
+              />
+            </div>
+
+
+               <a href="/projects">
+              {" "}
+              <button className="menuBtn" type="button">
+                Portfolio
+              </button>
+            </a>
+
+*/

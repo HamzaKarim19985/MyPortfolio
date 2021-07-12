@@ -116,12 +116,6 @@ export const Landingpage = () => {
                 alt="Downward Arrow"
               />
             </div>
-            <a href="/projects">
-              {" "}
-              <button className="menuBtn" type="button">
-                Portfolio
-              </button>
-            </a>
           </div>
         </div>
 
@@ -142,49 +136,44 @@ export const Landingpage = () => {
         </div>
 
         <div className="footer">
-          <div className="wrapper">
-            <div className="row">
-              <div className="column">
-                <p className="title">About Me</p>
-                <a href="/pdf" target="_blank">
-                  <p className="footer-link ">Resume</p>
-                </a>
-                <a href="/resume" target="_blank">
-                  <p className="footer-link ">Skills</p>
-                </a>
-                <a href="/resume" target="_blank">
-                  <p className="footer-link ">Bio</p>
-                </a>
-              </div>
+          <div className="row">
+            <div className="column">
+              <p className="title">About Me</p>
+              <a href="/pdf" target="_blank">
+                <p className="footer-link ">Resume</p>
+              </a>
+              <a href="/resume" target="_blank">
+                <p className="footer-link ">Skills</p>
+              </a>
+              <a href="/resume" target="_blank">
+                <p className="footer-link ">Bio</p>
+              </a>
+            </div>
 
-              <div className="column">
-                <p className="title">Contact</p>
-                <p className="footer-link ">Email | hamzakarim1998@gmail.com</p>
-                <p className="footer-link ">Phone Number | 416-996-2960</p>
-                <p className="footer-link ">Messenger | Hamza Karim</p>
-              </div>
+            <div className="column">
+              <p className="title">Contact</p>
+              <p className="footer-link ">Email | hamzakarim1998@gmail.com</p>
+              <p className="footer-link ">Phone Number | 416-996-2960</p>
+              <p className="footer-link ">Messenger | Hamza Karim</p>
+            </div>
 
-              <div className="column">
-                <p className="title">Socials</p>
-                <a
-                  href="https://www.linkedin.com/in/hamza-karim-4a3186133/"
-                  target="_blank"
-                >
-                  <p className="footer-link ">LinkedIn</p>
-                </a>
-                <a
-                  href="https://www.facebook.com/hamza.karim.982/"
-                  target="_blank"
-                >
-                  <p className="footer-link ">Facebook</p>
-                </a>
-                <a
-                  href="https://www.instagram.com/hamzakarimz/"
-                  target="_blank"
-                >
-                  <p className="footer-link ">Instagram</p>
-                </a>
-              </div>
+            <div className="column">
+              <p className="title">Socials</p>
+              <a
+                href="https://www.linkedin.com/in/hamza-karim-4a3186133/"
+                target="_blank"
+              >
+                <p className="footer-link ">LinkedIn</p>
+              </a>
+              <a
+                href="https://www.facebook.com/hamza.karim.982/"
+                target="_blank"
+              >
+                <p className="footer-link ">Facebook</p>
+              </a>
+              <a href="https://www.instagram.com/hamzakarimz/" target="_blank">
+                <p className="footer-link ">Instagram</p>
+              </a>
             </div>
           </div>
         </div>
