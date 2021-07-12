@@ -354,7 +354,10 @@ input {
 .menuBtn {
   display: inline-block;
   text-decoration: none;
+  background: black;
+  color: white;
 
+  /*
   padding: 0.8vw;
   border-radius: 10%;
   font-size: 1.5vw;
@@ -370,7 +373,7 @@ input {
     black;
 
   background-size: 300% 100%;
-  animation: shine 2000ms infinite;
+  animation: shine 2000ms infinite;  */
 }
 
 .menuBtnGold {
@@ -593,8 +596,11 @@ ul li.active {
 }
 .row {
   display: grid;
-  grid-template-columns: repeat(auto, minmax(230px, 1fr));
-  grid-row-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 }
 .footer-link {
   font-size: 15px;

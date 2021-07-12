@@ -118,7 +118,9 @@ export const Landingpage = () => {
             </div>
             <a href="/projects">
               {" "}
-              <button type="button">Portfolio</button>
+              <button className="menuBtn" type="button">
+                Portfolio
+              </button>
             </a>
           </div>
         </div>
@@ -132,7 +134,9 @@ export const Landingpage = () => {
             <form class="form" onSubmit={handleSubmit}>
               <input type="text" placeholder="Email" />
               <textarea placeholder="Message"></textarea>
-              <button type="submit">Send</button>
+              <button className="menuBtn" type="submit">
+                Send
+              </button>
             </form>
           </div>
         </div>
